@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFC MENU | цифровое меню и NFC-карты</title>
+  <meta name="description" content="NFC-карты и цифровое меню для кафе и ресторанов. Клиент прикладывает телефон и сразу видит ваше меню.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">NFC<span>MENU</span></a>
+      <nav class="nav">
+        <a href="#services">Услуги</a>
+        <a href="#examples">Примеры</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Главный экран -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="badge">NFC · Цифровое меню</span>
+          <h1>Будущее меню
+уже здесь</h1>
+          <p>
+            Гость прикладывает телефон к NFC-карте на столе и мгновенно
+            открывает ваше меню. Без приложений, без QR-кодов и без
+            бумажных папок.
+          </p>
+          <div class="hero__actions">
+            <a href="#services" class="btn btn--light">Смотреть услуги</a>
+            <a href="#examples" class="btn btn--ghost">Примеры работ</a>
+          </div>
+        </div>
+
+        <!-- Абстрактная 3D-графика на чистом CSS -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="shape shape--sphere"></div>
+          <div class="shape shape--ring"></div>
+          <div class="shape shape--cube"></div>
+          <div class="shape shape--card">
+            <span class="card__chip"></span>
+            <span class="card__logo">NFC</span>
+            <span class="card__waves"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Примеры работ -->
+    <section class="section" id="examples">
+      <div class="container">
+        <h2 class="section__title">Примеры работ</h2>
+        <p class="section__sub">Так выглядит цифровое меню на экране телефона гостя.</p>
+
+        <div class="gallery">
+          <article class="work">
+            <img src="pekar.png" alt="Пример цифрового меню 1" loading="lazy">
+          </article>
+          <article class="work">
+            <img src="baro.png" alt="Пример цифрового меню 2" loading="lazy">
+          </article>
+          <article class="work">
+            <img src="resto.png" alt="Пример цифрового меню 3" loading="lazy">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section__title">Услуги</h2>
+        <p class="section__sub">Наведите на карточку, чтобы увидеть подробности.</p>
+
+        <div class="services">
+          <article class="service" tabindex="0">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="5" width="20" height="14" rx="3"/>
+                <path d="M7 10.5a3.5 3.5 0 0 1 0 3M10 9a6 6 0 0 1 0 6M13 7.5a8.5 8.5 0 0 1 0 9"/>
+              </svg>
+            </div>
+            <h3>Умная NFC-карта <span class="service__tag">(для отзывов)</span></h3>
+            <div class="service__price">700 руб.</div>
+            <div class="service__desc">
+              <p>Стильная карта с чипом. Клиент прикладывает телефон и мгновенно видит ваше меню. Водонепроницаемый пластик.</p>
+            </div>
+          </article>
+
+          <article class="service" tabindex="0">
+            <div class="service__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+
+
+<rect x="6" y="2" width="12" height="20" rx="3"/>
+                <path d="M10 6h4M9 11h6M9 14.5h6M9 18h3"/>
+              </svg>
+            </div>
+            <h3>Сайт с меню</h3>
+            <div class="service__price">1500 руб.</div>
+            <div class="service__note">При покупке сайта карта стоит 500 руб.</div>
+            <div class="service__desc">
+              <p>Разработка современного адаптивного цифрового меню. Быстрая загрузка, удобный интерфейс.</p>
+              <p>Вы покупаете комплект карт, через которые получаете доступ к сайту с меню.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner">
+      <h2>Готовы запустить своё меню?</h2>
+      <p>Напишите мне, и я отвечу в течение дня.</p>
+      <div class="footer__buttons">
+        <a class="btn btn--light btn--lg" href="https://t.me/Chita_NFC" target="_blank" rel="noopener">Связаться со мной · @Chita_NFC</a>
+        <a class="btn btn--ghost btn--lg" href="https://vk.ru/club242706937" target="_blank" rel="noopener">Сообщество ВКонтакте</a>
+      </div>
+      <small>© 2026 NFC MENU</small>
+    </div>
+  </footer>
+
+</body>
+</html>
